@@ -1,12 +1,65 @@
-# React + Vite
+# TextUtils
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern text manipulation tool with voice capabilities built with React, Material-UI, and Vite.
 
-Currently, two official plugins are available:
+![TextUtils Screenshot](./public/screenshot.png) <!-- Add a screenshot later -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Text Transformation**:
+  - Uppercase/Lowercase conversion
+  - Capitalize text
+  - Remove extra spaces
+  - Clear text
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Text Analysis**:
+  - Word count
+  - Character count
+  - Reading time estimation
+
+- **Voice Features**:
+  - Text-to-speech with adjustable rate/pitch
+  - Speech controls
+
+- **Utilities**:
+  - Copy to clipboard
+  - Responsive design
+  - Dark/light theme support
+
+## Technologies Used
+
+- React 19
+- Vite
+- Material-UI (MUI)
+- Emotion CSS
+- Web Speech API
+
+## Live Demo
+
+[View on GitHub Pages](https://Maham-Liaqat.github.io/TextUtils)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/textutils-enhanced.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   cd textutils-enhanced
+   npm install
+   ```
+
+3. Run locally:
+   ```bash
+   npm run dev
+   ```
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
